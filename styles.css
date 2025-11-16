@@ -4,8 +4,8 @@
   border-left: 50px ;
 	 width: 0;
   height: 0;
-  border-right: 50px ;
-	font-size:100px;
+  border-right: 50px soild transparent;
+	font-size:100px solid transparent;
 	color:yellow;
 	
 }
