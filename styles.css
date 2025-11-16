@@ -1,8 +1,10 @@
 /*  your css code here. If applicable */
 .star{
-	border-bottom:100px;
-	border-left:50px:
-	border-right:50px;
+  border-bottom: 100px solid rgb(255, 255, 0);
+  border-left: 50px ;
+	 width: 0;
+  height: 0;
+  border-right: 50px ;
 	font-size:100px;
 	color:yellow;
 	
