@@ -1,7 +1,8 @@
 /*  your css code here. If applicable */
 .star{
-	marigin:0px;
-	padding:0px;
+	border-bottom:100px;
+	border-left:50px:
+	border-right:50px;
 	font-size:100px;
 	color:yellow;
 	
