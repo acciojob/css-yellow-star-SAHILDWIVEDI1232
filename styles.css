@@ -1,11 +1,11 @@
 /*  your css code here. If applicable */
 .star{
   border-bottom: 100px solid rgb(255, 255, 0);
-  border-left: 50px ;
+  border-left: 50px solid rgb(0,0,0) ;
 	 width: 0;
   height: 0;
-  border-right: 50px soild transparent;
-	font-size:100px solid transparent;
+  border-right: 50px soild rgb(0,0,0);
+	font-size:100px;
 	color:yellow;
 	
 }
