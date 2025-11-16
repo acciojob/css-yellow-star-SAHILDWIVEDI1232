@@ -1,17 +1,40 @@
-.css-star {
-  width: 150px;         /* size of star */
-  height: 150px;
-  background: yellow;   /* star color */
-  clip-path: polygon(
-    50% 0%,
-    61% 35%,
-    98% 35%,
-    68% 57%,
-    79% 91%,
-    50% 70%,
-    21% 91%,
-    32% 57%,
-    2% 35%,
-    39% 35%
-  );
+.star {
+  position: relative;
+  display: block;
+  color: yellow;   /* main color for star */
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid yellow;   /* top point */
+  border-left: 50px solid transparent;
+  transform: rotate(35deg);
+  margin: 100px;   /* just to center it a bit */
+}
+
+/* left upper point */
+.star::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: -50px;
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid yellow;
+  border-left: 50px solid transparent;
+  transform: rotate(-70deg);
+}
+
+/* right upper point */
+.star::after {
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: -50px;
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid yellow;
+  border-left: 50px solid transparent;
+  transform: rotate(70deg);
 }
